@@ -10,17 +10,6 @@ import  matplotlib.pyplot as plt
 import  numpy as np
 
 
-connection = pymysql.connect(
-    host = "localhost",
-    user = "root",
-    password = "tangfeng75609378",
-    port = 3306,
-    db = "sz_sechandhouse_db",
-    charset="utf8"
-)
-cursor = connection.cursor()
-
-
 def plt_price_area(price, area):
     
     # xticks = np.linspace(0, 1000, 101) 
